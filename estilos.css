@@ -1,0 +1,76 @@
+/* estilos.css */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+			background-color:#FFFEEB;
+        }
+
+        .contenedor {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        a {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+			display:block;
+        }
+		img{
+			display:block;
+		}
+	.titulos{
+	text-align:center;
+	text-decoration: underline;
+	text-shadow: 7px 4px 5px #BA6CFF;
+	font-family: 'Amatic SC', cursive;
+	ont-family: 'Courgette', cursive;
+	ont-family: 'Dancing Script', cursive;
+	ont-family: 'Fasthand', cursive;
+	ont-family: 'Lobster', cursive;
+	ont-family: 'Noto Serif', serif;
+	font-size:65px;}
+	.titulos2{
+	text-align:center;
+	text-decoration: underline;
+	text-shadow: 7px 4px 5px #EFD2FF  ;
+	font-family: 'Amatic SC', cursive;
+	ont-family: 'Courgette', cursive;
+	ont-family: 'Dancing Script', cursive;
+	ont-family: 'Fasthand', cursive;
+	ont-family: 'Lobster', cursive;
+	ont-family: 'Noto Serif', serif;
+	font-size:30px;}
+	
+	/* Estilos para el enlace botón */
+a.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F8EBFF;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+	Font-family: 'Courgette', cursive;
+	border-color:#9C93A1;
+}
+
+/* Cambio de color de fondo al pasar el mouse */
+a.boton:hover {
+    background-color: #9C93A1;
+	color:#FFFFFF;
+}
+
+	

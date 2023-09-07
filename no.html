@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PLANS</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+			background-color:#FFFEEB;
+        }
+
+        .contenedor {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        a{
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            font-family: 'Lobster', cursive;
+			font-size:20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+		a.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F8EBFF;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+	Font-family: 'Courgette', cursive;
+	border-color:#9C93A1;
+	}
+
+	/* Cambio de color de fondo al pasar el mouse */
+	a.boton:hover {
+    background-color: #9C93A1;
+	color:#FFFFFF;
+	}h1{
+	font-size:24px;
+	Font-family:'Courgette', cursive;
+	
+	}
+	.imagen {
+    transition: all 0.3s ease;
+	border: 2px solid #ccc;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    max-width: 200px; /* Cambiar el tamaño máximo según tus necesidades */
+    height: auto;
+	border-radius: 20px;
+
+	}
+	.imagen:hover {
+    filter: brightness(1.2); /* Aumenta el brillo */
+}
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Quieres salir?</h1>
+        <table>
+			<tr>
+                <td>
+                    <p>Ir al cine a ver una peli de miedo</p>
+                </td>
+                <td>
+                    <p>Ver cars en un lugar.. maybe parque</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="imagenes/3.jpg" alt="Imagen 1" class="imagen">
+                </td>
+                <td>
+                    <img src="imagenes/2.jpg" alt="Imagen 2" class="imagen">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://api.whatsapp.com/send?phone=528714240551&text=fuga%20al%20cine%20pues%20wei" class="boton">Plan a</a>
+                </td>
+				<td>
+                     <a href="https://api.whatsapp.com/send?phone=528714240551&text=fuga%20a%20ver%20cars%20pues%20wei%20cuchao" class="boton">Plan b</a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
+
+</html>
